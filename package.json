@@ -24,6 +24,7 @@
     "html-webpack-plugin": "^5.2.0",
     "postcss-import": "^14.0.0",
     "postcss-loader": "^5.0.0",
+    "postcss-mixins": "^7.0.3",
     "postcss-nested": "^5.0.4",
     "postcss-simple-vars": "^6.0.3",
     "style-loader": "^2.0.0",

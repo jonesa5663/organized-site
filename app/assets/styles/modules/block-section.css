@@ -1,0 +1,10 @@
+.block-section {
+    padding: 4.5rem 0;
+    
+
+&--purple {
+    background-color: $mainPurple;
+    color: white;
+}
+
+}
