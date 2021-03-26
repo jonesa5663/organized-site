@@ -1,0 +1,70 @@
+.headline {
+    color: $mainBlue;
+    font-weight: 200;
+    font-size: 1.5rem;
+
+    @mixin atSmall {
+        font-size: 2rem;
+    }
+
+    @mixin atMedium {
+        font-size: 3.2rem;
+    }
+
+    @mixin atLarge {
+        font-size: 4.8rem;
+    }
+
+    &--centered {
+        text-align: center;
+    }
+
+    &--small {
+        font-size: .75rem;
+        font-weight: 300;
+
+        @mixin atSmall {
+            font-size: .75rem;
+        }
+    
+        @mixin atMedium {
+            font-size: 1rem;
+        }
+    
+        @mixin atLarge {
+            font-size: 1.2rem;
+        }
+    }
+
+    &--purple {
+        color: $mainPurple;
+    }
+
+    &--narrow {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @mixin atSmall {
+            max-width: 400px;;
+        }
+    
+        @mixin atMedium {
+            max-width: 500px;;
+        }
+    
+        @mixin atLarge {
+            max-width: 600px;;
+        }
+    }
+
+    &--margin-small {
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+
+    &--b-margin-large {
+        margin-bottom: 1.5em;
+    }
+   
+}

@@ -32,34 +32,55 @@
 
     <!-- Large Hero Section -->
     <div class="large-hero">
-        <img class="large-hero__image" src="assets/images/hero--large-crop.jpg">
+        <picture>
+            <source media="(max-width: 530px)" srcset="assets/images/hero--small-alt.jpg"> 
+            <!-- <source media="(min-width: 441px)" srcset="assets/images/hero--small.jpg">     -->
+            <source media="(min-width:531px)"srcset="assets/images/hero--large.jpg" >
+            <img class="large-hero__image" src="assets/images/hero--large.jpg" alt="modern living room with fireplace">    
+        </picture>
+       
         <div class="large-hero__text-content">
             <h1 class="large-hero__title">Your Home</h1>
             <h2 class="large-hero__subtitle">Organized.</h2>
             <p class="large-hero__description">Experince the peace of mind that comes from a professionally organized living space. </p>
-            <p><a href="#" class="btn btn--green">Get Started Today</a></p>                
+            <p class="large-hero__btn"><a href="#" class="btn btn--green">Get Started Today</a></p>                
         </div>
     </div>
 
     <!-- Sub-Section One aka About Us Section -->
     <div id="about-us" class="block-section">
-        <div class="horizontal-wrapper">
-            <h2>Peace of Mind</h2>
-            <h3>We started as a cleaning service.  We've evolved into a lifesytle support team that helps you create the home you've always wanted.</h3>
-            <img src="https://images.unsplash.com/photo-1505576391880-b3f9d713dc4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80
-            " alt="room with adobe walls and arches">
-            <!-- fix the file path -->
-            <img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="white bright kitchen">
-            <h2>Our Philosophy</h2>
-            <p>We believe that good organization can help you live your life to the fullest. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt numquam, libero modi molestias laudantium neque minima id itaque doloribus vitae quis? Veniam esse soluta, mollitia ab cum itaque reprehenderit!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius beatae odio veritatis at rerum totam sint magni laboriosam? Qui vel repudiandae omnis nam neque eveniet eum sapiente culpa inventore totam tempore iure voluptatibus amet voluptates tempora illo, assumenda, optio rerum debitis. Placeat, itaque quam non deleniti, error veniam, ad atque impedit saepe reiciendis culpa quidem doloribus. Magni mollitia, maxime praesentium fugiat adipisci eum. Voluptates id reprehenderit hic at quis ex nulla nostrum fugiat, nemo sunt fugit quibusdam aliquid quos totam suscipit nobis? At accusantium ipsa distinctio ducimus quaerat voluptates cumque esse aut officia, dolores nisi dolorem, provident magni ex suscipit.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam sunt sit quidem blanditiis. Aliquid mollitia eos non? Placeat facilis, quisquam asperiores beatae numquam omnis necessitatibus maxime non reprehenderit. Tempore, nihil.</p>
+        <div class="wrapper">
+            <h2 class="headline headline--centered headline--margin-small">Peace of Mind</h2>
+            <h3 class="headline headline--centered headline--small headline--purple headline--narrow headline--margin-small"><strong>Organized</strong> is a lifesytle support team comprised of professional designers, organizers, and deep cleaning specialists. </h3>
+            <h3 class="headline headline--centered headline--small headline--purple headline--narrow headline--b-margin-large">We help you create <strong>the home you've always wanted.</strong></h3>
+            <div class="wrapper wrapper--narrow wrapper--b-margin_large">
+               
+                <img src="assets/images/bright-kitchen--resize.jpg" alt="bright organized kitchen">
+            </div>
+           
+            <div class="row row--gutter">
+                <div class="row row__medium-4 row__medium-4-lager">
+                    <picture>
+                        <source media="(max-width: 490px)" srcset="assets/images/about-us--small.jpg">
+                        <source media="(min-width: 491px)" srcset="assets/images/about-us--medium.jpg">
+                        <source media="(min-width: 801px)" srcset="assets/images/about-us--large.jpg"> 
+                        <img src="assets/images/about-us--large.jpg" alt="two people organizing shelves">       
+                    </picture>
+                    
+                </div>
+                <div class="row row__medium-8 row__medium-8-smaller">
+                    <h2 class="headline headline--margin-small">Our Philosophy</h2>
+                    <p>We believe that good organization can help you live your life to the fullest. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt numquam, libero modi molestias laudantium neque minima id itaque doloribus vitae quis? Veniam esse soluta, mollitia ab cum itaque reprehenderit!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius beatae odio veritatis at rerum totam sint magni laboriosam? Qui vel repudiandae omnis nam neque eveniet eum sapiente culpa inventore totam tempore iure voluptatibus amet voluptates tempora illo, assumenda, optio rerum debitis. Placeat, itaque quam non deleniti, error veniam, ad atque impedit saepe reiciendis culpa quidem doloribus. </p>
+                    <p> Magni mollitia, maxime praesentium fugiat adipisci eum. Aliquid mollitia eos non? Placeat facilis, quisquam asperiores beatae numquam omnis necessitatibus maxime non reprehenderit. Tempore, nihil.</p>
+                </div>    
+            </div>
         </div>
     </div>
 
     <!-- Sub-Section Two aka Process Section -->
     <div id="features" class="block-section block-section--purple">
-        <div class="horizontal-wrapper">
+        <div class="wrapper">
             <img src="#icon">
             <h2>Our Process</h2>
 

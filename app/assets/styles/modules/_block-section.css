@@ -1,0 +1,15 @@
+.block-section {
+    padding: .75rem 0;
+
+    @mixin atLarge {
+        padding: 2rem 0;
+    }
+
+    
+
+    &--purple {
+        background-color: $mainPurple;
+        color: white;
+    }
+
+}

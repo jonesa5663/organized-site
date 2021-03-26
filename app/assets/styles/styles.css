@@ -4,6 +4,7 @@
 @import 'base/_mixins.css';
 @import 'modules/_large-hero.css';
 @import 'modules/_btn.css';
-@import 'modules/block-section.css';
-@import 'modules/_horizontal-wrapper.css';
-
+@import 'modules/_block-section.css';
+@import 'modules/_wrapper.css';
+@import 'modules/_headline.css';
+@import 'modules/_row.css';

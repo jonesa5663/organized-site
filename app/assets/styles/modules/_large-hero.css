@@ -1,6 +1,6 @@
 .large-hero {
     position: relative;
-    border-bottom: 10px solid $mainBlue;
+    border-bottom: 5px solid $mainBlue;
 
     &__image {
         display: block;
@@ -12,17 +12,26 @@
         top: 50%;
         transform: translate(-50%, -50%);
         left: 50%;
-        max-width: 36rem;
+        max-width: 50rem;
         text-align: center;
         background-color: rgba(169, 169, 169, .8);
-        padding: 1rem 2rem;
+        padding: .5rem .75rem;
+
+        @mixin atSmall {
+            max-width: 50rem;
+        }
+
+        @mixin atMedium {
+            max-width: 36rem;
+            padding: 1rem 2rem;
+        }
     
     }
     
     &__title {
         font-weight: 200;
         color: $mainBlue;
-        font-size: 1.1rem;
+        font-size: 2rem;
         margin: 0;
 
         @mixin atSmall {
@@ -42,7 +51,7 @@
         font-weight: 300;
         color:  $mainBlue;
         margin: .2rem;
-        font-size: .8rem;
+        font-size: 1.5rem;
 
         @mixin atSmall {
             font-size: 1.5rem;
@@ -64,8 +73,8 @@
         max-width: 30rem;
         margin-left: auto;
         margin-right: auto;
-        font-size: .5rem;
-
+        font-size: .8rem;
+   
         @mixin atSmall {
             font-size: .8rem;
         }
@@ -76,6 +85,14 @@
 
         @mixin atLarge {
             font-size: 1.5rem;
+        }
+    }
+
+    &__btn {
+        margin: 10px;
+
+        @mixin atSmall {
+            margin: 18px;
         }
     }
 }
