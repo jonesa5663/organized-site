@@ -1,0 +1,11 @@
+.generic-content-container {
+
+    p {
+        line-height: 1.5;
+    }
+
+    p a {
+        font-weight: 700;
+        color: $mainPurple;
+    }
+}

@@ -14,8 +14,9 @@
         left: 50%;
         max-width: 50rem;
         text-align: center;
-        background-color: rgba(169, 169, 169, .8);
+        background-color: rgba(129, 129, 129, 0.8);
         padding: .5rem .75rem;
+        border-radius: 2%;
 
         @mixin atSmall {
             max-width: 50rem;
@@ -35,11 +36,11 @@
         margin: 0;
 
         @mixin atSmall {
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
 
         @mixin atMedium {
-            font-size: 3.2rem;
+            font-size: 3.5rem;
         }
 
         @mixin atLarge {
@@ -73,10 +74,11 @@
         max-width: 30rem;
         margin-left: auto;
         margin-right: auto;
-        font-size: .8rem;
+        display: none;
    
         @mixin atSmall {
             font-size: .8rem;
+            display: block;
         }
 
         @mixin atMedium {
