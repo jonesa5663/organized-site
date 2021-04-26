@@ -1,0 +1,20 @@
+.section-title {
+    font-size: 3.25rem;
+    font-weight: 200;
+    text-align: center;
+
+    @mixin atSmall {
+        font-size: 4.25rem;
+    }
+
+    &__icon {
+        vertical-align: text-bottom;
+        margin-right: .5rem;
+        font-size: .75em;
+    }
+
+    > strong {
+        font-weight: 300;
+    }
+
+}

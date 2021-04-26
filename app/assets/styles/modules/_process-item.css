@@ -1,0 +1,44 @@
+.process-item {
+    position: relative;
+
+    padding-bottom: 1.25rem;
+
+    @mixin atSmall {
+      padding-left: 120px;
+      padding-bottom: 3.25rem;
+    }
+   
+  &__icon {
+      display: block;
+      margin: 0 auto;
+      height: 55px;
+
+      @mixin atSmall {
+        position: absolute;
+        left: 0;
+        height: 70px;
+      }
+  }
+    
+  &__title {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    margin-top: .6em;
+    text-align: center;
+
+    @mixin atSmall {
+      font-size: 1.75rem;
+      text-align: left;
+    }
+  }
+
+  p {
+    font-weight: 300;
+    line-height: 1.65;
+
+    @mixin atSmall {
+      font-size: 1rem;
+    }
+  }
+}

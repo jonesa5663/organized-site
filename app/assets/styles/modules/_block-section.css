@@ -8,7 +8,7 @@
     
 
     &--purple {
-        background-color: $mainPurple;
+        background-color: $mainPurpleDark;
         color: white;
     }
 
