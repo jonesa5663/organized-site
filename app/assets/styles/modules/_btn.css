@@ -4,13 +4,9 @@
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    font-size: .5rem;
-    padding: .4rem .55rem;
-
-    @mixin atSmall {
-        font-size: .7rem;
-        padding: .6rem 1.2rem;
-    }
+    border-radius: 3%;
+    font-size: .7rem;
+    padding: .6rem 1.2rem;
 
     @mixin atMedium {
         font-size: .9rem;
